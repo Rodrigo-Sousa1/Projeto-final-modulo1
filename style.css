@@ -1,0 +1,309 @@
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+
+header{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #252525;}
+
+.logo-what{ display: none;}
+
+nav{display: flex;
+    width: 15vw;
+    height: 5vh;
+    justify-content: space-evenly;}
+
+.logo{ display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     width: 13vw;}
+
+.img-logo{ height:30px;
+        width: 30px}
+
+.p-logo{ color: white;
+        font-size: 20px;}
+
+/* main */
+
+.container1{
+    background-image: url(Grupo\ 486@2x.png);
+    height:100vh;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .p-c1{ font-size: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    height: 10vh;}
+
+    .item-c1{ text-align: center;
+        height: 30vh;}
+
+    .fig-container1{ height: 80px;
+                width: 80px;}
+
+
+.container2{
+    height: 90vh;
+    background-image: url(Interseção\ 16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 500px;
+    background-color: #F4F2F3;}
+
+.item-c2{ display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 50%;
+   }
+
+.d-c2{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;}
+
+.h2-c2,.h2-c3{ font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.p-c2, .p-c3{ font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.botao-itemc2{ width: 30%;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #3A342F;
+    color: #F4F2F3;
+    font-size: 20px;}
+
+.container3{ height: 115vh;
+    width: 100%;
+    background-image: url(Grupo\ 480.png);
+    background-size: 100% 100%;}
+
+.h2-c3, .p-c3{ color: white;}
+
+.item-c3{ display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 100px;
+    height: 80vh;}
+
+.botao-c3{margin-top: 20px;
+    width: 35%;}
+
+.botao-itemc3{ width: 50%;
+    height: 35px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 20px;}
+
+.container4{ width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+
+.p-c4{ color: #FD6A9A;
+font-size: 25px;
+font-family: cursive;
+width: 10vw;
+}
+
+.fig-c4{ display: flex;
+    justify-content: space-evenly;
+    width: 70vw; }
+.fig-c4-2{ display: none;}
+
+/*footer */
+footer{ background-color: #EB4A7B;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+
+.f-container1, .f-container1-2{ display: none;}
+
+    .f-h2-c2,.f-h2-c3, .f-h2-c4 
+        { color: white;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;}
+
+    .f-p-c2, .f-p-c3, .f-p-c4
+    { color: white;
+      font-size: 20px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;}
+
+@media ( max-width:500px) {
+
+        header{ width: 100%;
+            height: 12vh;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0px;
+            z-index: 0px;}
+
+        .img-logo{width: 40px;
+            height: 40px;}
+
+        .logo-what-con{width: 20%; }
+        .logo{width: 40vw;}
+
+        .logo-what{display:initial;
+            width: 30px;} 
+    
+        nav{ display: none};
+        
+        /*main*/
+
+        .p-c1{font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: white;
+            height: 9vh; }
+
+        .container1{ display: flex;
+            flex-direction: column;}
+
+
+        .container1 figure{width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+
+        .fig-container1{
+             height: 60px;
+            width: 60px;}
+
+        .container2{ background-color: #F4F2F3; }
+
+        .item-c2{ 
+            width: 100%;
+            height: 90vh;
+            margin-left: 0px;}
+
+        .d-c2{ 
+            width: 100%;
+            height: 100vh;
+            }
+
+        .h2-c2{
+            font-size: 40px;
+            width: 100%vw;}
+        
+        .p-c2, .p-c3{ font-size: 25px;
+            padding: 2px;}
+
+        .botao-itemc2{ width: 30%;
+            height: 35px;
+            font-size: 15px;
+            margin: 10px; }
+
+        .back-c2{ width:80%;
+            height: 120vh;
+            background-image: url(Interseção\ 16@2x.png);
+            background-size: 100% 100%;
+            background-color: #F4F2F3;}
+
+        .container3{ background-image: none;
+            background-image: linear-gradient(45deg,#BF2A57 10%, #E1406C 2%, #E74671 5%, #F2527D 5%);
+            height:100vh;}
+
+        .item-c3{
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            height: 40vh;}
+
+        .h2-c3-2{ margin-top: 20px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;}
+
+        .h2-c3{ font-size: 35px;
+            padding: 5px;}
+
+        .botao-c3{ width: 60%;
+            height: 30vvh;}
+
+        .botao-itemc3{ border: solid white ;
+                width: 50vw;}
+
+
+        .back-c3{ background-image: url(Grupo\ 480.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+
+            width: 100%;
+            height: 56vh;
+            margin-top: 25px;}
+
+        .container4{ flex-direction: column;
+            height: 20vh;}
+
+        .p-c4{ width: 15vw;}
+
+        .fig-c4{display: none;}
+        
+        .fig-c4-2{display: flex;
+            justify-content: space-evenly;
+            width: 100%;}
+
+       
+        footer{ height: 120vh;
+            flex-direction: column; }
+
+        .f-container1{ display: initial;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+             width: 35%;
+            height: 8vh;}
+
+        .f-container1 img{height:30px;
+            width: 30px;}
+
+        .f-container1 p{ color: white;
+            font-size: 23px;}
+
+        .f-container1-2{ display: initial;
+            display: flex;
+            width: 50%;
+            justify-content: space-evenly;}
+
+        .f-container2, .f-container3, .f-container4{width: 100%; 
+            height: 30vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;}
+
+        .f-d-c4, .f-d-c3, .f-d-c2{ width: 100%;}
+
+        .f-p-c2, .f-p-c3, .f-p-c4{text-align: center;}  }
+
+        /* animação */
+    .anima-1{  transition: transform .5s;}
+    .anima-1:hover{ transform: scale(2,2);}
+
+    .botao-itemc2:hover{background:#000000 ; }
+    .botao-itemc3:hover{background: gray;}
+
+    .fig-c4 img{transition: 1s;}
+    .fig-c4 img:hover{transform: scale(2,2);}
+
